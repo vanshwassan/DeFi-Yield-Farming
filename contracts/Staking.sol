@@ -124,7 +124,7 @@ contract TokenFarm is DapiReader, Ownable {
             (stakBal * newTokenPrice) / (10**18);
     }
 
-    // Issuing Tokens
+    // Issuing Token Rewards
     function issueTokens() public onlyOwner {
         // Issue tokens to all stakers
         for (

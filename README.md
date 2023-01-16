@@ -31,7 +31,7 @@ yarn hardhat compile
 - To deploy and set all the dAPI and Contract addresses
 
 ```sh
-yarn hardhat deploy --network mumbai
+yarn deploy
 ```
 
 - Head on to [API3 Market](https://market.api3.org) and get access to the dAPIs so that the dAPP can access them. They are free to use on Mumbai Testnet. Just head on to it, enter your Staking contract's address, click on request access and approve the transactions.

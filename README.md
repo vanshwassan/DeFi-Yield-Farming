@@ -25,7 +25,7 @@ cp credentials.example.json credentials.json
 - Compile the contracts
 
 ```sh
-yarn hardhat compile
+yarn compile
 ```
 
 - To deploy and set all the dAPI and Contract addresses

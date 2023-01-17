@@ -13,6 +13,7 @@
     "hardhat-deploy": "^0.11.22"
   },
   "scripts": {
+    "compile": "yarn hardhat compile",
     "deploy": "yarn hardhat deploy --network mumbai",
     "stake": "yarn hardhat run scripts/stakeTokens.js --network mumbai",
     "unstake": "yarn hardhat run scripts/unstakeTokens.js --network mumbai",

@@ -11,9 +11,9 @@ async function main() {
     hre.ethers.provider.getSigner()
   );
 
-  const stakeTokens = await stakingContract.stakeTokens('200000000000000000', WETHAddress);
+  const stakeTokens = await stakingContract.stakeTokens('1000000000000000000', WETHAddress);
   await stakeTokens.wait();
-  console.log("Staked 0.2 Wrapped ETH!");
+  console.log("Staked 1.00 Wrapped ETH!");
 
 }
   main()

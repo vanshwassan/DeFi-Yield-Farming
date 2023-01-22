@@ -1,4 +1,4 @@
-# Defi Yield Farming DAPP Using dAPIs
+# Staking DAPP Using dAPIs
 
 > dAPP to stake Mock Wrapped ETH or any ERC20 token to earn DAPP Tokens of the same equivalent staked value in USD using API3's dAPIs on Polygon Mumbai Testnet.
 
@@ -64,3 +64,7 @@ yarn issue
 ```sh
 yarn unstake
 ```
+
+- As any user can stake/unstake WETH, you can try running `yarn stake` and `yarn unstake` with a different mnemonic with enough gas to make the trasnactions.
+
+- Only the owner (the address that deployed the contract) can issue the rewards - run `yarn stake` command.

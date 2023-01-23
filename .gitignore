@@ -1,5 +1,4 @@
 node_modules
-credentials.example.json
 credentials.json
 artifacts
 cache
